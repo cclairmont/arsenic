@@ -17,7 +17,7 @@ class Firefox(Browser):
 
 
 class Chrome(Browser):
-    session_class = CompatSession
+    session_class = Session
     defaults = {"browserName": "chrome"}
 
 
